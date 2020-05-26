@@ -24,7 +24,8 @@ TOTAL: 33,353,748 bytes IN 1,455,884 lines IN 1,926 files
 
 ### About performance
 
-Scan about 50k text files ( 17,872k lines/ 625Mb size), it costs 5 seconds.
+It costs 5 seconds to scan about 50k text files / 18M lines/ 625Mb total-file-size.
+
 (On my desktop PC: i5-7600K,  nvme SSD)
 
 

@@ -1,9 +1,10 @@
 # pycmd
 
+## tfscan
 Scan text files in one directory with specified file extension names, sum lines and file size as report info.
 
 
-## Run commands samples
+### Run commands samples
 
     ./tfscan.py /home/tom go
     
@@ -11,7 +12,7 @@ Scan text files in one directory with specified file extension names, sum lines 
     
     ./tfscan.py /home/michey go py js
 
-## Output sample
+### Output sample
        .........
        4,825      254	src/github.com/temoto/robotstxt/google_test.go
        5,728      227	src/github.com/temoto/robotstxt/robotstxt.go
@@ -21,7 +22,7 @@ Scan text files in one directory with specified file extension names, sum lines 
 TOTAL: 33,353,748 bytes IN 1,455,884 lines IN 1,926 files
 
 
-## About performance
+### About performance
 
 Scan about 50k text files ( 17,872k lines/ 625Mb size), it costs 5 seconds.
 (On my desktop PC: i5-7600K,  nvme SSD)

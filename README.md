@@ -13,7 +13,6 @@ Scan text files in one directory with specified file extension names, sum lines 
 
 ## Output sample
        .........
-       .........
        4,825      254	src/github.com/temoto/robotstxt/google_test.go
        5,728      227	src/github.com/temoto/robotstxt/robotstxt.go
          906       36	src/github.com/temoto/robotstxt/scanner_test.go
@@ -24,7 +23,8 @@ TOTAL: 33,353,748 bytes IN 1,455,884 lines IN 1,926 files
 
 ## About performance
 
-Scan about 50k text files ( 17,872k lines/ 625Mb size), it cost 5 seconds.
+Scan about 50k text files ( 17,872k lines/ 625Mb size), it costs 5 seconds.
+(On my desktop PC: i5-7600K,  nvme SSD)
 
 
 ### Notice

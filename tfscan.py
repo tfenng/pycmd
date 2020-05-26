@@ -47,7 +47,7 @@ def fix_dot_prefix(s):
     return '.{}'.format(s) if s[0]!='.' else s
 
 if __name__ == '__main__':
-    dir='/home/tony/nextgisweb'
+    dir='/home/tony'
     exts=['.py']
 
     if len(sys.argv)>1:
@@ -72,4 +72,4 @@ if __name__ == '__main__':
         tt_size += fsize
         tt_lines += lines
 
-    print('Total: {:,} bytes in {:,} lines, {:,} files'.format(tt_size,tt_lines,tt_files))
+    print('TOTAL: {:,} bytes IN {:,} lines IN {:,} files'.format(tt_size,tt_lines,tt_files))

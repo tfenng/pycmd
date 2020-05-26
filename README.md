@@ -3,10 +3,13 @@
 Scan text files in one directory with specified file extension names, sum lines and file size as report info.
 
 
-## Run commands samples:
-./tfscan.py /home/tom go
-./tfscan.py /home/jerry go py
-./tfscan.py /home/michey go py js
+## Run commands samples
+
+    ./tfscan.py /home/tom go
+    
+    ./tfscan.py /home/jerry go py
+    
+    ./tfscan.py /home/michey go py js
 
 ## Output sample
        .........
